@@ -1,5 +1,5 @@
 # Benchmark-Dataset-and-Deep-Learning-Method-for-Global-Tropical-Cyclone-Forecasting
-
+![Dataset Image](https://github.com/user-attachments/assets/792867ad-5ea4-49c8-beb9-267276de7aec)
 This repository introduces the contents of our research work, which consists of **two main parts**:
 
 1. A benchmark dataset for global tropical cyclone (TC) research – **TropiCycloneNet Dataset**
@@ -9,9 +9,7 @@ Both parts are released to foster open research and encourage reproducible resul
 
 ---
 
-## 🌪️ TropiCycloneNet-Dataset
-
-![Dataset Image](https://github.com/user-attachments/assets/792867ad-5ea4-49c8-beb9-267276de7aec)
+## 🌪️ [TropiCycloneNet-Dataset](https://github.com/xiaochengfuhuo/TropiCycloneNet-Dataset)
 
 ### 🔍 Overview
 
@@ -54,14 +52,14 @@ This will produce three images showing the meteorological and environmental cont
 
 See full documentation and usage guide in the GitHub repository:
 
-👉 [TropiCycloneNet-Dataset](https://drive.google.com/file/d/1BUAab0OYyiArbraQHu2oMoj_jF-nNUxT/view?usp=sharing)
+👉 [TropiCycloneNet-Dataset](https://github.com/xiaochengfuhuo/TropiCycloneNet-Dataset)
 
-🧠 [TropiCycloneNet-Model](https://drive.google.com/file/d/1BUAab0OYyiArbraQHu2oMoj_jF-nNUxT/view?usp=sharing)
+## 🧠 [TropiCycloneNet-Model](https://github.com/xiaochengfuhuo/TropiCycloneNet)
 
-Model Image
+
 🔧 Introduction
 
-TropiCycloneNet (TCN_M) is our proposed deep learning model for predicting TC track and intensity using multi-modal data (e.g., satellite images, environmental features, 1D/3D meteorological data).
+TropiCycloneNet (TCN_M) is our proposed deep learning model for predicting TC track and intensity using multi-modal data (e.g., environmental features, 1D/3D meteorological data).
 
 This repository contains:
 
@@ -76,7 +74,7 @@ This repository contains:
     🟩 Green area: Multiple trajectory predictions by our model
     🟥 Red area: MMSTN’s prediction range
 
-Prediction Sample
+![Sample](https://github.com/xiaochengfuhuo/TropiCycloneNet/blob/main/LINGLING.gif)
 ⚙️ Requirements
 
     Python 3.8.5
@@ -86,6 +84,23 @@ Prediction Sample
     OpenCV, NumPy, Matplotlib
 
 Training code and model weights will be released soon.
-📘 Repository
+See full documentation and usage guide in the GitHub repository:
 
-👉 TropiCycloneNet GitHub
+👉 [TropiCycloneNet-Model](https://github.com/xiaochengfuhuo/TropiCycloneNet)
+
+
+## Citing TropiCycloneNet
+
+```
+@article{TropiCycloneNet_under_review,
+author = {Huang, Cheng and Mu, Pan and Zhang, Jinglin and Chan, Sixian and Zhang Shiqi and Yan, Hanting and Chen, Shengyong and Bai, Cong},
+title = {Benchmark Dataset and Deep Learning Method for Global Tropical Cyclone Forecasting},
+journal = {Nature Communications},
+volume = {Accepted},
+number = {Accepted},
+pages = {Accepted},
+doi = {Accepted},
+url = {Accepted},
+year = {Accepted}
+}
+```
